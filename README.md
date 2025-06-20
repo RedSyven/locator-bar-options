@@ -1,5 +1,5 @@
 # Locator Bar Options for Minecraft 1.21.6+
-The [Locator Bar Options] datapack exposes the `/waypoint` commands to settings, improving accessibility for players.
+The [Locator Bar Options] datapack exposes basic `/waypoint` commands to settings, improving accessibility for players.
 <br />
 <br />
 This allows players to easily and intuitively view/change their Locator Bar settings without needing command access or server permissions.
