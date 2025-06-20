@@ -5,6 +5,10 @@ The [Locator Bar Options] datapack exposes the `/waypoint` commands to settings,
 This allows players to easily and intuitively view/change their Locator Bar settings without needing command access or server permissions.
 <br />
 <br />
+
+Access the settings via either: 
+1. ```Game Menu > Locator Bar Options```
+2. ```Game Menu > Custom Options > Locator Bar Options```
 ![ezgif-options](https://github.com/user-attachments/assets/cf13e896-7d3b-467b-925c-ad90a96ac976)
 ## Features:
 
@@ -17,6 +21,8 @@ This allows players to easily and intuitively view/change their Locator Bar sett
 • Icon color personalization
 <br />
 
+• Hide Mechanic Toggle (https://minecraft.wiki/w/Locator_Bar#:~:text=Players%20can%20prevent%20their%20positions%20from%20being%20shown%20in%20the%20locator%20bar%3B%20they%20can%20sneak%2C%20wear%20a%20mob%20head%20or%20carved%20pumpkin%2C%20or%20be%20under%20the%20Invisibility%20effect)
+<br />
 
 
 
