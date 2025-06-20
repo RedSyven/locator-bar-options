@@ -21,7 +21,8 @@ Access the settings via either:
 • Icon color personalization
 <br />
 
-• Hide Mechanic Toggle (https://minecraft.wiki/w/Locator_Bar#:~:text=Players%20can%20prevent%20their%20positions%20from%20being%20shown%20in%20the%20locator%20bar%3B%20they%20can%20sneak%2C%20wear%20a%20mob%20head%20or%20carved%20pumpkin%2C%20or%20be%20under%20the%20Invisibility%20effect)
+• Hide Mechanic Toggle ([Minecraft wiki link](https://minecraft.wiki/w/Locator_Bar#:~:text=Players%20can%20prevent%20their%20positions%20from%20being%20shown%20in%20the%20locator%20bar%3B%20they%20can%20sneak%2C%20wear%20a%20mob%20head%20or%20carved%20pumpkin%2C%20or%20be%20under%20the%20Invisibility%20effect))
+<br />
 <br />
 
 
