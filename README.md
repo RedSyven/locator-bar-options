@@ -2,7 +2,7 @@
 [Locator Bar Options] is a serverside datapack that exposes basic `/waypoint` commands to the settings menu, improving accessibility for players.
 <br />
 <br />
-This allows players to easily and intuitively view/change their Locator Bar settings without needing command access or server permissions.
+This allows players to easily and intuitively view/change their locator bar settings without needing command access or server permissions.
 <br />
 <br />
 
