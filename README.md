@@ -9,8 +9,9 @@ This allows players to easily and intuitively view/change their locator bar sett
 Access the settings via either: 
 1. ```Game Menu > Locator Bar Options```
 2. ```Game Menu > Custom Options > Locator Bar Options```
-![ezgif-options](https://github.com/user-attachments/assets/cf13e896-7d3b-467b-925c-ad90a96ac976)
+![ezgif-options_updated](https://github.com/user-attachments/assets/770b6049-f833-444f-bc9f-1c7ec65f6c72)
 ## Features:
+
 
 • Locator bar on/off toggle
 <br />
