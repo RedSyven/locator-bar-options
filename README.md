@@ -1,4 +1,8 @@
-# Locator Bar Options for Minecraft 1.21.6+
+# Locator Bar Options for Minecraft 1.21.6+ & 26.3
+### Credits:
+Original version (1.21.6): RedSyven
+Updated version (26.3): Z3R0TR0N
+<br />
 [Locator Bar Options] is a serverside datapack that exposes basic `/waypoint` commands to the settings menu, improving accessibility for players.
 <br />
 <br />
