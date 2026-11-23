@@ -1,0 +1,91 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Chat Settings",
+    "inputs": [
+        {
+            "type": "minecraft:single_option",
+            "key": "",
+            "width": 150,
+            "label": "Chat",
+            "options": [
+                {
+                    "id": "i1",
+                    "display": "Shown"
+                },
+                {
+                    "id": "i2",
+                    "display": "Commands Only"
+                },
+                {
+                    "id": "i3",
+                    "display": "Hidden"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:single_option",
+            "key": "",
+            "width": 150,
+            "label": "Colors",
+            "options": [
+                {
+                    "id": "",
+                    "display": "On"
+                },
+                {
+                    "id": "",
+                    "display": "Off"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:single_option",
+            "key": "",
+            "width": 150,
+            "label": "Web Links",
+            "options": [
+                {
+                    "id": "",
+                    "display": "On"
+                },
+                {
+                    "id": "",
+                    "display": "Off"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:single_option",
+            "key": "",
+            "width": 150,
+            "label": "Prompt on Links",
+            "options": [
+                {
+                    "id": "",
+                    "display": "On"
+                },
+                {
+                    "id": "",
+                    "display": "Off"
+                }
+            ]
+        },
+        {
+            "type": "minecraft:number_range",
+            "key": "",
+            "width": 150,
+            "label": "Chat Text Opacity",
+            "label_format": "%1$s : %2$s %",
+            "start": 0,
+            "end": 100,
+            "step": 1,
+            "initial": 100
+        }
+    ],
+    "columns": 2,
+    "actions": [
+        {
+            "label": "Back"
+        }
+    ]
+}

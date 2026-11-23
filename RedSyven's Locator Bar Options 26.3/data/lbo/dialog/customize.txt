@@ -1,0 +1,38 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Locator Bar Options > Customize",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Customization\n\n\nDisable to turn off location sharing."
+        }
+    ],
+    "inputs": [
+        {
+            "type": "minecraft:single_option",
+            "key": "locator_bar_toggle",
+            "label": "Enable Locator Bar",
+            "options": [
+                {
+                    "id": "1000",
+                    "display": {"text":"ON","color":"green"},
+                    "initial": false
+                },
+                {
+                    "id": "10",
+                    "display": {"text":"OFF","color":"red"},
+                    "initial": true
+                }
+            ]
+        }
+    ],
+    "actions": [
+        {
+            "label": "Back",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "lbo:main_menu"
+            }
+        }
+    ]
+}
