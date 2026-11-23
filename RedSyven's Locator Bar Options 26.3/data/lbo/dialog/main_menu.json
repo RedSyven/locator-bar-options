@@ -1,0 +1,36 @@
+{
+	"type": "minecraft:multi_action",
+	"title": "Locator Bar Options",
+	"pause": false,
+	"after_action": "none",
+	"columns": 1,
+	"body": [
+		{
+			"type": "plain_message",
+			"contents": "Menu\n\n\n"
+		}
+	],
+	"actions": [
+		{
+			"label": "Customize",
+			"action": {
+				"type": "run_command",
+				"command": "trigger lbo.menu set 1"
+			}
+		},
+		{
+			"label": "Info",
+			"action": {
+				"type": "show_dialog",
+				"dialog": "lbo:info"
+			}
+		}
+	],
+	"exit_action": {
+		"label": "Back",
+		"action": {
+			"type": "run_command",
+			"command": "trigger lbo.menu set 2"
+		}
+	}
+}

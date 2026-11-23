@@ -1,0 +1,72 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Locator Bar Options > Customize",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Customization\n\n\nDisable to turn off location sharing."
+        }
+    ],
+    "inputs": [
+        {
+            "type": "minecraft:single_option",
+            "key": "locator_bar_toggle",
+            "label": "Enable Locator Bar",
+            "options": [
+                {
+                    "id": "1000",
+                    "display": {"text":"ON","color":"green"},
+                    "initial": true
+                },
+                {
+                    "id": "10",
+                    "display": {"text":"OFF","color":"red"},
+                    "initial": false
+                }
+            ]
+        },
+        {
+            "type": "minecraft:number_range",
+            "key": "transmit_range",
+            "label": "Transmit range (blocks)",
+            "start": 10,
+            "end": 1000,
+            "step": 10,
+            "initial": 1000
+        },
+        {
+            "type": "minecraft:number_range",
+            "key": "receive_range",
+            "label": "Receive range (blocks)",
+            "start": 0,
+            "end": 1000,
+            "step": 10,
+            "initial": 1000
+        },
+        {
+            "type": "minecraft:number_range",
+            "key": "icon_color",
+            "label": "Icon Color",
+            "start": 1,
+            "end": 16,
+            "step": 1,
+            "initial": 1
+        }
+    ],
+    "actions": [
+        {
+            "label": "Back",
+            "action": {
+                "type": "show_dialog",
+                "dialog": "lbo:main_menu"
+            }
+        },
+        {
+            "label": "Save",
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "trigger lbo.menu set $(locator_bar_toggle)"
+            }
+        }
+    ]
+}

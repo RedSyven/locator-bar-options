@@ -1,0 +1,37 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Locator Bar Options > Customize",
+    "pause": false,
+    "columns": 1,
+    "after_action": "none",
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Customization\n\n\nDisable [Hide Mechanic] if unable to turn on Locator Bar."
+        }
+    ],
+    "actions": [
+        {
+            "label": [{"text":"Hide Mechanic: "},{"text":"Disabled","color": "red","bold": true}],
+            "tooltip": "By default, players can hide their position icons via invisibility or by wearing a mob head / carved pumpkin. This can be disabled.\n\nCrouching will be unaffected.",
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 2000"
+            }
+        },
+        {
+            "label": [{"text":"Locator Bar: "},{"text":"Disabled","color": "red","bold": true}],
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 1000"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "lbo:main_menu"
+        }
+    }
+}

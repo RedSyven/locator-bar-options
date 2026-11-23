@@ -1,0 +1,46 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Locator Bar Options > Customize > Icon Style",
+    "pause": false,
+    "after_action": "none",
+    "columns": 2,
+    "body": [
+        {
+            "type": "plain_message",
+            "width": 500,
+            "contents": "Icon Style\n\n\n"
+        }
+    ],
+    "inputs": [
+        {
+            "type": "minecraft:text",
+            "label": "Change style:",
+            "key": "icon_style"
+        }
+    ],
+    "actions": [
+        {
+            "label": "Submit",
+            "width": 100,
+            "action": {
+                "type": "dynamic/run_command",
+                "template": "execute store result score @s lbo.icon_style run data modify storage lbo:data waypoint set value {style:\"$(icon_style)\"}"
+            }
+        },
+        {
+            "label": "Reset",
+            "width": 100,
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 222"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Back",
+        "action": {
+            "type": "run_command",
+            "command": "trigger lbo.menu set 1"
+        }
+    }
+}

@@ -1,0 +1,59 @@
+{
+    "type": "minecraft:multi_action",
+    "title": "Locator Bar Options > Customize",
+    "pause": false,
+    "after_action": "none",
+    "columns": 1,
+    "body": [
+        {
+            "type": "plain_message",
+            "contents": "Customization\n\n\nDisable to turn off location sharing.Disable to turn off location sharing."
+        }
+    ],
+    "actions": [
+        {
+            "label": [{"text":"Locator Bar: "},{"text":"Enabled","color": "green","bold":true}],
+            "tooltip": "Disabling will turn off location sharing and hide the locator bar.",
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 10"
+            }
+        },
+        {
+            "label": "",
+            "width": 1
+        },
+        {
+            "label": "Transmit Range: $(transmit) blocks",
+            "tooltip": "If this is stuck at 0 blocks, disable [ Hide Mechanic ].",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 110"
+            }
+        },
+        {
+            "label": "Receive Range: $(receive) blocks",
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 120"
+            }
+        },
+        {
+            "label": [{"text":"Icon Color: "},{"text":"Red","color":"red"}],
+            "width": 200,
+            "action": {
+                "type": "run_command",
+                "command": "trigger lbo.menu set 130"
+            }
+        }
+    ],
+    "exit_action": {
+        "label": "Back",
+        "action": {
+            "type": "show_dialog",
+            "dialog": "lbo:main_menu"
+        }
+    }
+}
