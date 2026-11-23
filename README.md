@@ -3,6 +3,8 @@
 Original version (1.21.6): RedSyven
 Updated version (26.3): Z3R0TR0N
 <br />
+<br />
+## Description
 [Locator Bar Options] is a serverside datapack that exposes basic `/waypoint` commands to the settings menu, improving accessibility for players.
 <br />
 <br />
