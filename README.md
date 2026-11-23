@@ -1,6 +1,7 @@
 # Locator Bar Options for Minecraft 1.21.6+ & 26.3
 ### Credits:
 Original version (1.21.6): RedSyven
+<br />
 Updated version (26.3): Z3R0TR0N
 <br />
 <br />
