@@ -2,7 +2,7 @@
 ### Credits:
 Original version (1.21.6) created by: RedSyven
 <br />
-Updated version (26.3) edited by: Z3R0TR0N
+Edited by Z3R0TR0N for compatibility with Minecraft 26.3
 <br />
 <br />
 ## Description
